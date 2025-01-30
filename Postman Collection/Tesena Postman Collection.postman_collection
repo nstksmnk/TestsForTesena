@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "3d1128a8-f007-42ad-b4d7-ca178526c9e5",
+		"name": "Automation Exercise Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41633048"
+	},
+	"item": [
+		{
+			"name": "productList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}productsList",
+					"host": [
+						"{{URL}}productsList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "search_product",
+							"value": "top",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{URL}}searchProduct",
+					"host": [
+						"{{URL}}searchProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createAccount",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "userName",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "userName@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "userPassword",
+							"type": "text"
+						},
+						{
+							"key": "firstname",
+							"value": "userFirstName",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "userLastName",
+							"type": "text"
+						},
+						{
+							"key": "address1",
+							"value": "address1",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "country",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "state",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "city",
+							"type": "text"
+						},
+						{
+							"key": "zipcode",
+							"value": "zipcode",
+							"type": "text"
+						},
+						{
+							"key": "mobile_number",
+							"value": "555555555",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{URL}}createAccount",
+					"host": [
+						"{{URL}}createAccount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteAccount",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "userName@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "userPassword",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{URL}}deleteAccount",
+					"host": [
+						"{{URL}}deleteAccount"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

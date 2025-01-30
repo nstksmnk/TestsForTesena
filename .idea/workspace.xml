@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57553b0-de6c-4bde-bf4f-d99471cbea3d" name="Changes" comment="AutomationExerciseTests" />
+    <list default="true" id="a57553b0-de6c-4bde-bf4f-d99471cbea3d" name="Changes" comment="workspace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738265255011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workspace">
+      <created>1738265405933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738265405933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AutomationExerciseTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="AutomationExerciseTests" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
